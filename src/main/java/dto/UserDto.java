@@ -8,6 +8,7 @@ import java.sql.Timestamp;
 public class UserDto extends BaseEntityDto {
 
     private String email;
+    private String password;
     private String role;
     private Timestamp createOn;
     private Timestamp lastUpdate;

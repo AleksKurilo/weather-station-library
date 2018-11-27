@@ -7,12 +7,13 @@ import lombok.ToString;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotNull;
+import java.io.Serializable;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-public class AuthRequestDto {
+public class AuthRequestDto implements Serializable {
 
     @NotNull
     @Email

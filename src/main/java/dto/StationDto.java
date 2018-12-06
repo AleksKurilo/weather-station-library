@@ -4,6 +4,8 @@ package dto;
 import enums.WindDirection;
 import lombok.Data;
 
+import javax.validation.constraints.NotNull;
+
 
 @Data
 public class StationDto extends BaseEntityDto {
@@ -14,5 +16,7 @@ public class StationDto extends BaseEntityDto {
     private Integer pressure;
     private Double windSpeed;
     private WindDirection windDirection;
+
+    @NotNull
     private String coordinates;
 }

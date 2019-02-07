@@ -18,5 +18,5 @@ public class StationDto extends BaseEntityDto {
     private WindDirection windDirection;
 
     @NotNull
-    private String coordinates;
+    private String coordinate;
 }

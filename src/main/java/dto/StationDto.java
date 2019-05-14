@@ -1,6 +1,5 @@
 package dto;
 
-
 import enums.WindDirection;
 import lombok.Data;
 
